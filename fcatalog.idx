@@ -1,0 +1,266 @@
+10,10,31,55,55,67,89,101,114,126,138,138,148,156,179,215,215,240,252,262,273,273,286,286,286,298,313,313,313,322,334,345,357,357,386,409,419,442,480,492,530,530,539,560,571,584,622,634,634,634,647,647,647,647,677,677,690,700,722,722,734,747,747,760,760,760,770,782,795,820,830,830,855,855,855,867,867,879,879,879,893,917,927,940,940,940,951,975,1032,1056,1056,1056,1091,1101,1101,1126,1126,1126,1150,1159,1159,1178,1203,1216,1228,1288,1307,1329,1341,1361,1361,1374,1396,1396,1418,1430,1430,1430,1442,1442,1467,1478,1478,1478,1502,1502,1527,1527
+2083      
+feof;3612
+isalpha;40
+free;4291
+getc;2898
+strerror;5649
+strcpy;4774
+fmod;1103
+ungetc;3136
+mktime;6282
+strpbrk;5468
+setbuf;2116
+strspn;5336
+puts;3093
+exp;642
+isgraph;160
+fseek;3322
+toupper;482
+vfprintf;2342
+time;6185
+tmpfile;1968
+strcat;4900
+strstr;5534
+gets;2972
+raise;1607
+strxfrm;5752
+strcmp;5026
+localtime;6488
+ceil;841
+signal;1544
+iscntrl;80
+strtod;3944
+log;679
+fread;3182
+labs;3771
+log10;716
+strcoll;5160
+atan;1339
+islower;200
+frexp;1006
+localeconv;522
+acos;1300
+sprintf;2280
+strtok;5694
+isspace;320
+strtol;4004
+difftime;6227
+sin;1150
+tanh;1505
+scanf;2596
+clock;6145
+strcspn;5401
+remove;1860
+calloc;4141
+strftime;6549
+atexit;4405
+tmpname;2007
+pow;757
+abs;3738
+memmove;5887
+fgetpos;3454
+isalnum;0
+perror;3690
+exit;4369
+memchr;6025
+strtoul;4067
+setvbuf;2052
+floor;880
+gmtime;6433
+fsetpos;3507
+isxdigit;400
+system;4455
+modf;1054
+isupper;360
+strrchr;5279
+memcpy;5821
+isdigit;120
+clearerr;3566
+fscanf;2536
+fwrite;3248
+sinh;1427
+strncpy;4832
+atan2;1378
+putchar;3053
+ftell;3372
+fopen;1644
+rename;1907
+abort;4330
+srand;4727
+strlen;5598
+fprintf;2166
+qsort;4626
+fabs;921
+fclose;1819
+vsprintf;2468
+ldexp;960
+strncat;4958
+memcmp;5955
+fputc;2799
+realloc;4237
+tan;1224
+cos;1187
+rand;4691
+ispunct;280
+asctime;6330
+strncmp;5088
+fflush;1778
+isprint;240
+vprintf;2410
+fgetc;2706
+rewind;3412
+getenv;4503
+sqrt;802
+atof;3808
+asin;1261
+memset;6088
+tolower;442
+cosh;1466
+atoi;3855
+freopen;1705
+ferror;3649
+atol;3899
+fputs;2843
+ctime;6385
+printf;2228
+strchr;5224
+malloc;4193
+bsearch;4553
+fgets;2745
+setlocale;580
+putc;3011
+sscanf;2646
+getchar;2935
+c89;ctype.h;isalnum;		int	isalnum(int);
+c89;ctype.h;isalpha;		int	isalpha(int);
+c89;ctype.h;iscntrl;		int	iscntrl(int);
+c89;ctype.h;isdigit;		int	isdigit(int);
+c89;ctype.h;isgraph;		int	isgraph(int);
+c89;ctype.h;islower;		int	islower(int);
+c89;ctype.h;isprint;		int	isprint(int);
+c89;ctype.h;ispunct;		int	ispunct(int);
+c89;ctype.h;isspace;		int	isspace(int);
+c89;ctype.h;isupper;		int	isupper(int);
+c89;ctype.h;isxdigit;		int	isxdigit(int);
+c89;ctype.h;tolower;		int	tolower(int);
+c89;ctype.h;toupper;		int	toupper(int);
+c89;locale.h;localeconv;		struct lconv	*localeconv(void);
+c89;locale.h;setlocale;		char		*setlocale(int, const char *);
+c89;math.h;exp;		double	exp(double);
+c89;math.h;log;		double	log(double);
+c89;math.h;log10;		double	log10(double);
+c89;math.h;pow;		double	pow(double, double);
+c89;math.h;sqrt;		double	sqrt(double);
+c89;math.h;ceil;		double	ceil(double);
+c89;math.h;floor;		double	floor(double);
+c89;math.h;fabs;		double	fabs(double);
+c89;math.h;ldexp;		double	ldexp(double, int);
+c89;math.h;frexp;		double	frexp(double, int *);
+c89;math.h;modf;		double	modf(double, double *);
+c89;math.h;fmod;		double	fmod(double, double);
+c89;math.h;sin;		double	sin(double);
+c89;math.h;cos;		double	cos(double);
+c89;math.h;tan;		double	tan(double);
+c89;math.h;asin;		double	asin(double);
+c89;math.h;acos;		double	acos(double);
+c89;math.h;atan;		double	atan(double);
+c89;math.h;atan2;		double	atan2(double, double);
+c89;math.h;sinh;		double	sinh(double);
+c89;math.h;cosh;		double	cosh(double);
+c89;math.h;tanh;		double	tanh(double);
+c89;signal.h;signal;		void	(*signal(int, void (*)(int)))(int);
+c89;signal.h;raise;		int	raise(int);
+c89;stdio.h;fopen;		FILE	*fopen(const char *, const char *);
+c89;stdio.h;freopen;		FILE	*freopen(const char *, const char *, FILE *);
+c89;stdio.h;fflush;		int	fflush(FILE *);
+c89;stdio.h;fclose;		int	fclose(FILE *);
+c89;stdio.h;remove;		int	remove(const char *);
+c89;stdio.h;rename;		int	rename(const char *, const char *);
+c89;stdio.h;tmpfile;		FILE	*tmpfile();
+c89;stdio.h;tmpname;		char	*tmpname(char *);
+c89;stdio.h;setvbuf;		int	setvbuf(FILE *, char *, int, size_t);
+c89;stdio.h;setbuf;		void	setbuf(FILE *, char *);
+c89;stdio.h;fprintf;		int	fprintf(FILE *, const char *, ...);
+c89;stdio.h;printf;		int	printf(const char *, ...);
+c89;stdio.h;sprintf;		int	sprintf(char *, const char *, ...);
+c89;stdio.h;vfprintf;		int	vfprintf(FILE *, const char *, va_list);
+c89;stdio.h;vprintf;		int	vprintf(const char *, va_list);
+c89;stdio.h;vsprintf;		int	vsprintf(char *, const char *, va_list);
+c89;stdio.h;fscanf;		int	fscanf(FILE *, const char *, ...);
+c89;stdio.h;scanf;		int	scanf(const char *, ...);
+c89;stdio.h;sscanf;		int	sscanf(char *, const char *, ...);
+c89;stdio.h;fgetc;		int	fgetc(FILE *);
+c89;stdio.h;fgets;		char	*fgets(char *, int, FILE *);
+c89;stdio.h;fputc;		int	fputc(int, FILE *);
+c89;stdio.h;fputs;		char	*fputs(const char *, FILE *);
+c89;stdio.h;getc;		int	getc(FILE *);
+c89;stdio.h;getchar;		int	getchar();
+c89;stdio.h;gets;		char	*gets(char *);
+c89;stdio.h;putc;		int	putc(int, FILE *);
+c89;stdio.h;putchar;		int	putchar(int);
+c89;stdio.h;puts;		int	puts(const char *);
+c89;stdio.h;ungetc;		int	ungetc(int, FILE *);
+c89;stdio.h;fread;		size_t	fread(void *, size_t, size_t, FILE *);
+c89;stdio.h;fwrite;		size_t	fwrite(const void *, size_t, size_t, FILE *);
+c89;stdio.h;fseek;		int	fseek(FILE *, long, int);
+c89;stdio.h;ftell;		long	ftell(FILE *);
+c89;stdio.h;rewind;		void	rewind(FILE *);
+c89;stdio.h;fgetpos;		int	fgetpos(FILE *, fpos_t *);
+c89;stdio.h;fsetpos;		int	fsetpos(FILE *, const fpos_t *);
+c89;stdio.h;clearerr;		void	clearerr(FILE *);
+c89;stdio.h;feof;		int	feof(FILE *);
+c89;stdio.h;ferror;		int	ferror(FILE *);
+c89;stdio.h;perror;		void	perror(const char *);
+c89;stdlib.h;abs;		int	abs(int);
+c89;stdlib.h;labs;		long	labs(long);
+c89;stdlib.h;atof;		double	atof(const char *);
+c89;stdlib.h;atoi;		int	atoi(const char *);
+c89;stdlib.h;atol;		long	atol(const char *);
+c89;stdlib.h;strtod;		double	strtod(const char *, char **);
+c89;stdlib.h;strtol;		long	strtol(const char *, char **, int);
+c89;stdlib.h;strtoul;		unsigned long	strtoul(const char *, char **, int);
+c89;stdlib.h;calloc;		void	*calloc(size_t, size_t);
+c89;stdlib.h;malloc;		void	*malloc(size_t);
+c89;stdlib.h;realloc;		void	*realloc(void *, size_t);
+c89;stdlib.h;free;		void	free(void *);
+c89;stdlib.h;abort;		void	abort(void);
+c89;stdlib.h;exit;		void	exit(int);
+c89;stdlib.h;atexit;		int	atexit(void (*)(void));
+c89;stdlib.h;system;		int	system(const char *);
+c89;stdlib.h;getenv;		char	*getenv(const char *);
+c89;stdlib.h;bsearch;		void	*bsearch(const void *, const void *, size_t,
+c89;stdlib.h;qsort;		void	qsort(void *, size_t, size_t, int (*)(
+c89;stdlib.h;rand;		int	rand(void);
+c89;stdlib.h;srand;		void	srand(unsigned int);
+c89;string.h;strcpy;		char	*strcpy(char *, const char *);
+c89;string.h;strncpy;		char	*strncpy(char *, const char *, size_t);
+c89;string.h;strcat;		char	*strcat(char *, const char *);
+c89;string.h;strncat;		char	*strncat(char *, const char *, size_t);
+c89;string.h;strcmp;		int	strcmp(const char *, const char *);
+c89;string.h;strncmp;		int	strncmp(const char *, const char *, size_t);
+c89;string.h;strcoll;		int	strcoll(const char *, const char *);
+c89;string.h;strchr;		char	*strchr(const char *, int);
+c89;string.h;strrchr;		char	*strrchr(const char *, int);
+c89;string.h;strspn;		size_t	strspn(const char *, const char *);
+c89;string.h;strcspn;		size_t	strcspn(const char *, const char *);
+c89;string.h;strpbrk;		char	*strpbrk(const char *, const char *);
+c89;string.h;strstr;		char	*strstr(const char *, const char *);
+c89;string.h;strlen;		size_t	strlen(const char *);
+c89;string.h;strerror;		char	*strerror(int);
+c89;string.h;strtok;		char	*strtok(char *, const char *);
+c89;string.h;strxfrm;		size_t	strxfrm(char *, const char *, size_t);
+c89;string.h;memcpy;		void	*memcpy(void *, const void *, size_t);
+c89;string.h;memmove;		void	*memmove(void *, const void *, size_t);
+c89;string.h;memcmp;		int	memcmp(const void *, const void *, size_t);
+c89;string.h;memchr;		void	*memchr(const void *, int, size_t);
+c89;string.h;memset;		void	*memset(void *, int, size_t);
+c89;time.h;clock;		clock_t	clock(void);
+c89;time.h;time;		time_t	time(time_t *t);
+c89;time.h;difftime;		double	difftime(time_t, time_t);
+c89;time.h;mktime;		time_t	mktime(struct tm *);
+c89;time.h;asctime;		char	*asctime(const struct tm *);
+c89;time.h;ctime;		char	*ctime(const time_t *);
+c89;time.h;gmtime;		struct tm	*gmtime(const time_t *);
+c89;time.h;localtime;		struct tm	*localtime(const time_t *);
+c89;time.h;strftime;		size_t		strftime(char *, size_t, const char *,
